@@ -25,8 +25,8 @@
          resources, i.e. build is platform dependent! -->
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
    </properties>
-
-   <!-- Include the JBoss Maven repository so we can access JBoss artifacts -->
+   
+      <!-- Include the JBoss Maven repository so we can access JBoss artifacts -->
    <repositories>
       <repository>
          <id>jboss-public-repository</id>
