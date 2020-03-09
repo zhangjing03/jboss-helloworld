@@ -137,29 +137,4 @@
       </plugins>
    </build>
 
-   
-    <!-- 使用m8cloud镜像 -->
-    <repositories>
-        <repository>
-            <id>m8cloud</id>
-            <name>m8cloud</name>
-            <url>http://nexus3.m8.com/repository/m8cloud/</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			</repository>
-    </repositories>
-	<pluginRepositories>
-		<pluginRepository>
-			<id>public</id>
-			<name>m8cloud nexus</name>
-			<url>http://nexus3.m8.com/repository/m8cloud/</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</pluginRepository>
-	</pluginRepositories>
 </project>
